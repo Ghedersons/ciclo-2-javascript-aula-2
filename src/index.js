@@ -7,13 +7,27 @@
 // area = largura * altura;
 
 // Dimensões da parede (largura e altura em metros)
-var largura = 5;
+ var largura = 5;
 var altura = 4;
 
-// Calculando a área da parede
+// Cálculo da área
+var area = largura * altura; 
 
-// Exibindo o resultado no console
-console.log("A área da parede é:");
+// Função para Calcular  a área de Uma Pintura .
+// function CalcularAreaDaPintura(largura, altura) {
+//   var area = largura * altura;
+//   return area;
+// }
+
+// var altura = prompt("Digite a altura da parede em metros:");
+// var largura = prompt("Digite a largura da parede em metros:");
+// largura = parseFloat(largura);
+// altura = parseFloat(altura);
+
+// var area = CalcularAreaDaPintura(largura, altura);
+console.log("A área da parede é: " + area + " metros quadrados.");
+ //
+  
 
 //-------------------------------------------------------------------------------------------------
 
